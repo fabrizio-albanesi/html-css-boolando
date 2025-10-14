@@ -22,7 +22,7 @@
 
 
 
-.orange-container {
+.top-navbar {
     display: flex;
     height: 60px;
     min-width: 100%;
@@ -32,7 +32,7 @@
     background-color: orangered;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    
+
     position: fixed;
     z-index: 9999;
 }
@@ -56,22 +56,22 @@ img {
 
 .cards-top-container {
 
-   bottom: 130px;
-   gap: 35px;
+    bottom: 130px;
+    gap: 35px;
     scale: 50%;
-   position: relative;
-    display:flex ;
-    
+    position: relative;
+    display: flex;
+
     justify-content: center;
     flex-wrap: nowrap;
 }
 
 .cards-bottom-container {
-bottom: 32em;
+    bottom: 32em;
     scale: 50%;
-   
+
     position: relative;
-    display:flex ;
+    display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     gap: 35px;
@@ -81,4 +81,37 @@ bottom: 32em;
 
     width: 640px;
     height: 924px;
+}
+
+.bottom-navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 80px;
+    gap: 15em;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+main {
+
+    max-height: 75em;
+
+}
+
+
+
+.info-container {
+
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+   
+    gap: 5px;
 }

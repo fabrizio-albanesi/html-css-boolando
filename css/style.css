@@ -20,16 +20,21 @@
     gap: 10px;
 }
 
+
+
 .orange-container {
     display: flex;
     height: 60px;
+    min-width: 100%;
     justify-content: center;
     justify-content: space-around;
     padding: 20px;
     background-color: orangered;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    gap: 10px;
+    
+    position: fixed;
+    z-index: 9999;
 }
 
 img {
@@ -51,18 +56,25 @@ img {
 
 .cards-top-container {
 
+   bottom: 130px;
+   gap: 35px;
     scale: 50%;
-    width: 80%;
+   position: relative;
     display:flex ;
+    
+    justify-content: center;
     flex-wrap: nowrap;
 }
 
 .cards-bottom-container {
-
+bottom: 32em;
     scale: 50%;
-    width: 80%;
+   
+    position: relative;
     display:flex ;
     flex-wrap: nowrap;
+    justify-content: center;
+    gap: 35px;
 }
 
 #green-dress {

@@ -1,0 +1,72 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#boxed {
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#woman-man-child {
+
+    display: flex;
+
+    gap: 10px;
+}
+
+.orange-container {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: orangered;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    gap: 10px;
+}
+
+img {
+
+    display: flex;
+    position: relative;
+
+
+    scale: 100%;
+    align-items: flex-start;
+}
+
+#bag-man-heart {
+    display: flex;
+
+    gap: 10px;
+
+}
+
+.cards-top-container {
+
+    scale: 50%;
+    width: 80%;
+    display:flex ;
+    flex-wrap: nowrap;
+}
+
+.cards-bottom-container {
+
+    scale: 50%;
+    width: 80%;
+    display:flex ;
+    flex-wrap: nowrap;
+}
+
+#green-dress {
+
+    width: 640px;
+    height: 924px;
+}

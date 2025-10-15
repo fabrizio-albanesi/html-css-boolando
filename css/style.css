@@ -89,8 +89,9 @@ img {
     color: white;
     height: 80px;
     gap: 15em;
-    justify-content: space-around;
-    align-items: center;
+    position: relative;
+
+
 
 
 
@@ -109,9 +110,92 @@ main {
 
 .info-container {
 
-    color: white;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
-   
+    display: flex;
+    position: relative;
+    right: 52em;
+    top: 40px;
     gap: 5px;
+    max-height: 8px;
+    min-width: 35em;
+}
+
+#colored-link-legal {
+
+    color: white;
+}
+
+#colored-link-privacy {
+
+    color: white;
+}
+
+#colored-link-recess {
+
+    color: white;
+}
+
+
+#company-name {
+
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 16.2em;
+    max-height: 8px;
+    min-width: 150px;
+}
+
+#social {
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 48em;
+    max-height: 8px;
+    min-width: 150px;
+}
+
+
+.social-links {
+
+    display: flex;
+    position: relative;
+    max-width: 30px;
+    top: 45px;
+    right: 180px;
+
+}
+
+.description-container {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px;
+display: flex;
+position: relative;
+    
+}
+
+#marca {
+
+   display: flex;
+   position: relative;
+    bottom: 20px;
+    
+}
+
+#descrizione {
+
+font-weight: bold;
+    
+   
+    
+}
+
+#prezzo {
+
+color: crimson;
+    
+    
 }
